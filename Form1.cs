@@ -66,7 +66,7 @@ namespace infrastructure_inquiry
 
         private  void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
         {
-            request.POST(comboBox3, comboBox4, "GetNeighbourhoods", "Mahalle");
+            request.POST(comboBox3, comboBox4, "GetNeighborhoods", "Mahalle");
         }
 
         private  void comboBox4_SelectedIndexChanged(object sender, EventArgs e)
@@ -83,7 +83,7 @@ namespace infrastructure_inquiry
 
         private  void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
         {
-            request.POST(comboBox6, comboBox7, "GetAparments", "Daire");
+            request.POST(comboBox6, comboBox7, "GetApartments", "Daire");
 
         }
 
